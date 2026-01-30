@@ -1,0 +1,31 @@
+.required:before {
+    content: "* ";
+    color: red;
+}
+
+span.required::before {
+    content: "* ";
+    color: red;
+}
+
+label.required::before {
+    content: "* ";
+    color: red;
+}
+
+.badge-custom {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 0.875rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.badge-white{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 0.875rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.25rem;
+    background-color: rgba(255, 255, 255, 0);
+}
